@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+padding:0;
+margin:0;
+border:0; 
+}
+
+body { background-color: #000000;
+background-image:url(../images/fundocs.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed; /*Define se a imagem de fundo rola*/}
+
+#formu { /*fomulario de login*/
+	margin: 0 auto;
+	width: 960px;
+	height:30px;
+	opacity:0.8;
+	background-image:url(../images/cads2.png);
+}
+.form { /*login */
+	float:right;
+	margin-top:5px;
+	margin-right:150px;
+}
+.campos {
+background-color:#982c40; 
+font: 13px  Arial, Helvetica, sans-serif;
+color:#666;
+margin-right: 10px;
+}
+.botao {
+background-color:#982c40;
+font: 14px Arial, Helvetica, sans-serif;
+color:#000;
+
+}
+.botao:hover {
+	background-color: #FFF;
+	opacity:0.4;
+}/*-------*/
+
+.cads { /*botao de cadastro*/
+   position:absolute;
+   top: 0px;
+   left: 73%;
+   width:115px;
+   height:60px;
+   opacity:0.80;
+   background-image:url(../images/cads.png);
+   float: right;
+}
+
+.cads h4{
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	margin-left:1px;
+	font-size:14px;
+  margin-top:19px;
+}
+.cads a:hover{
+	background-color:#333;
+	opacity:0.2;
+}
+
+#cnt {
+	width:960px;
+	height: 2800px; /* height:auto bugado */
+	background:url(../images/cntd.png);
+	margin: 0 auto;
+}	
+#lgo {
+	margin: 0 auto;
+	margin-top: -10px;
+	background:url(../images/logo11.png);
+	background-repeat:no-repeat;
+	clear:both;
+	width: 960px;
+	height: 309px;
+}
+#menu {
+	width: 960px;
+	height: 61px;
+	opacity:0.80;
+	background-image:url(../images/menu1.jpg);
+	margin: 0 auto;
+}
+
+
+#menu ul {
+	margin: 0;
+	padding:0px 0px 0px 0px;
+    list-style:none;
+}
+
+#menu li {
+	display:inline; /*tipo linha*/
+}
+
+
+#menu a {
+	display: block; /*elemento tipo bloco*/
+	float: left; /* faz flutuar (posicionar)*/
+	margin-left: 50px;
+	height : 41px;
+	padding: 15px 15px 0px 10px;/*espaco superior/direito/inf/esq*/
+	text-decoration: none; /*efeito de decoracao*/
+	text-transform: uppercase; /*efeito de transformar em maiúscula */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	color: #FFFFFF;
+
+ }
+
+#menu a:hover { /*Passar mouse*/
+	background:url(../images/menu3.jpg);
+}
+.nov{
+	float:left;
+	margin-left:115px;
+	height: auto;
+	width: 730px;
+}
+.nov img:hover{
+	height: auto;
+	width: auto;
+	background-color: #333;
+	opacity: 0.5;
+}
+
+.nov button{
+	position: absolute;
+	top:0px;
+	left:0px;
+	background-color: #982c40;
+    width: auto;
+    height: auto;
+    padding:6px;
+}
+.nov b{
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.nov a {
+	color: #982c40;
+}
+.nov a:link {
+	text-decoration: none;
+}
+.nov a:hover{
+	color:#CCC;
+}
+
+.linha {
+	float:right;
+	margin-top:60px;
+	margin-bottom:40px;
+	width:960px;
+	height:15px;
+}
+.linha img{
+	margin-top:14px;
+	float:right;
+}
+.linha h2{
+	margin-left:35px;
+font-family:Verdana, Geneva, sans-serif;
+font-size:20px;
+color:#982c40;
+}
+
+.destq {
+	height: 270px;
+	width: 800px ;
+	clear:both;
+	margin-bottom:60px;
+	margin-left:35px;
+	border-bottom: #FFF;
+}
+.destq {
+	position:relative; /*levanta img */
+    padding:0px;
+}
+
+.destq:hover {
+	top:-2px;
+	box-shadow: 2px 2px 2px 2px #982c40;
+}
+.destq img{
+	float:left;
+	margin:0 20px 10px 0; 
+}
+.destq button{
+	position: absolute;
+	top:0px;
+	left:0px;
+	background-color: #982c40;
+    width: auto;
+    height: auto;
+    padding:6px;
+}
+.destq b{
+	font-size:20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.destq a {
+	color: #982c40;
+}
+.destq a:link {
+	text-decoration: none;
+}
+.destq a:hover{
+	color:#CCC;
+}
+p {
+	color: #CCC;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.destq img:hover{
+	width: auto;
+	height: auto;
+	background-color: #333;
+	opacity: 0.5;
+} 
+/*--------------------- PAGINA JOGOS --------------*/
+
+.cnt1{
+	margin-top:20px;
+	width:480px;
+	height: auto;
+	float:left;
+}
+.cnt1 iframe{ 
+    margin-bottom: 20px;
+}
+.cnt2 {
+	margin-top:20px;
+	height: auto;
+	width:480px;
+	float:right;
+}
+.cnt2 p{
+	margin-left:50px;
+}
+.linha2 {
+	float:right;
+	margin-top:60px;
+	margin-bottom:40px;
+	width:480px;
+	height:15px;
+}
+.linha2 img{
+	margin-top:14px;
+	float:right;
+}
+.linha2 h2{
+	margin-left:35px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:20px;
+    color:#982c40;
+}
+/*-- Formulario Cadastro ---*/
+form {
+	float:left;
+	margin-left:250px;
+	margin-top: 30px;
+}
+.ffonts{
+	font-family:Verdana, Geneva, sans-serif;
+	color: #982c40;
+}
+.ffonts b{
+	text-transform: uppercase;
+}
+.ffundo{
+	background-color: #982c40;
+}
+.ffundo:hover{
+	background-color: #333;
+	opacity:0.8;
+}
+
+/*-- Barra --*/
+address {
+	height:70px;
+	background-color: #111111;
+	opacity:0.8;
+	font: 14px ;
+color: #666 ;
+ border-top:thin dotted;
+ border-top-color: #982c40;
+}
